@@ -1,0 +1,24 @@
+--backend/
+    |-- src/
+    |    |--index.js                   // starts the server
+    |    |--app.js                     // sets up Express app & middleware
+    |
+    |    |--config/
+    |    |    |--database.js             // connects to MongoDB Atlas
+    |    |    |--constants.js            // stores global constants
+    | 
+    |    |--controllers/
+    |    |    |--auth.controller.js      // handles login/signup logic
+    |
+    |    |--routes/
+    |    |    |--auth.route.js           // auth-related routes
+    |
+    |    |--models/
+    |         |--user.model.js           // mongoose user schema
+    |
+  
+    |--.env                             // env variables
+    |--.gitignore                       // ignore files/folders
+    |--package.json                     // project metadata + deps
+
+--frontend/                             // frontend folder (empty for now)
