@@ -1,0 +1,26 @@
+{
+  "name": "fcc_nodejs-express_tutorial",
+  "version": "1.0.0",
+  "description": "a tutorial for intro to backend",
+  "homepage": "https://github.com/dav1138/fCC_NodeJS-Express_Tutorial#readme",
+  "bugs": {
+    "url": "https://github.com/dav1138/fCC_NodeJS-Express_Tutorial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dav1138/fCC_NodeJS-Express_Tutorial.git"
+  },
+  "license": "ISC",
+  "author": "David",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.0"
+  }
+}
